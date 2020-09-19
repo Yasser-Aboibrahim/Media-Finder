@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0CEF97250C3F2700D77C0D /* UserDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CEF96250C3F2700D77C0D /* UserDatabaseManager.swift */; };
+		3B12A0B62505C16800C94299 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12A0B52505C16800C94299 /* Media.swift */; };
+		3B12A0B82505C1DA00C94299 /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12A0B72505C1DA00C94299 /* MediaResponse.swift */; };
+		3B14611A24F13FE8007BD94C /* MediaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14611924F13FE8007BD94C /* MediaListVC.swift */; };
+		3B14611D24F143EC007BD94C /* MoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14611B24F143EC007BD94C /* MoviesCell.swift */; };
+		3B14611E24F143EC007BD94C /* MoviesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B14611C24F143EC007BD94C /* MoviesCell.xib */; };
+		3B14612024F14991007BD94C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14611F24F14991007BD94C /* Movie.swift */; };
+		3B14F77D24E623FB00D5D291 /* Place Mark with Compact Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14F77C24E623FB00D5D291 /* Place Mark with Compact Address.swift */; };
+		3B14F77F24E62DEF00D5D291 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14F77E24E62DEF00D5D291 /* UserDefaultsManager.swift */; };
+		3B1A28F924DFAA88006984B6 /* depositphotos_214595286-stock-illustration-pin-vector-icon-isolated-transparent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A28F824DFAA85006984B6 /* depositphotos_214595286-stock-illustration-pin-vector-icon-isolated-transparent.jpg */; };
+		3B1B919524DB6DDC00DD0023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B919424DB6DDC00DD0023 /* AppDelegate.swift */; };
+		3B1B919724DB6DDC00DD0023 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B919624DB6DDC00DD0023 /* SignUpVC.swift */; };
+		3B1B919A24DB6DDC00DD0023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B919824DB6DDC00DD0023 /* Main.storyboard */; };
+		3B1B919C24DB6DDF00DD0023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B919B24DB6DDF00DD0023 /* Assets.xcassets */; };
+		3B1B919F24DB6DDF00DD0023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B919D24DB6DDF00DD0023 /* LaunchScreen.storyboard */; };
+		3B1B91AE24DB87EA00DD0023 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B91AD24DB87EA00DD0023 /* User.swift */; };
+		3B1B91B224DB888700DD0023 /* UIViewController & validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B91B124DB888700DD0023 /* UIViewController & validation.swift */; };
+		3B1B91B424DB892C00DD0023 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B91B324DB892C00DD0023 /* Constants.swift */; };
+		3B1B91B624DB91DF00DD0023 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B91B524DB91DF00DD0023 /* SignInVC.swift */; };
+		3B1B91B824DB968D00DD0023 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B91B724DB968D00DD0023 /* ProfileVC.swift */; };
+		3B1B91BA24DBAC3200DD0023 /* 504-5040528_empty-profile-picture-png-transparent-png.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B91B924DBAC3200DD0023 /* 504-5040528_empty-profile-picture-png-transparent-png.png */; };
+		3B1B91BC24DBAF0700DD0023 /* Skull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B91BB24DBAF0700DD0023 /* Skull.jpg */; };
+		3B237B3A250BA6E600FCB9CB /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B237B39250BA6E600FCB9CB /* MediaManager.swift */; };
+		3B47138524FBD380009AB998 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B47138424FBD380009AB998 /* APIManager.swift */; };
+		3B94326D24DCFB7100EAAEC4 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B94326C24DCFB7000EAAEC4 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg */; };
+		3B94326F24DCFC9600EAAEC4 /* kisspng-google-maps-pin-bing-maps-mapquest-how-to-create-a-nice-map-pin-icon-in-photoshop-i-5b630ecb57b8e5.8437748615332185073593.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B94326E24DCFC9600EAAEC4 /* kisspng-google-maps-pin-bing-maps-mapquest-how-to-create-a-nice-map-pin-icon-in-photoshop-i-5b630ecb57b8e5.8437748615332185073593.jpg */; };
+		3B94327124DCFFE200EAAEC4 /* Pin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3B94327024DCFFE200EAAEC4 /* Pin.pdf */; };
+		3B94327324DD007200EAAEC4 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94327224DD007200EAAEC4 /* MapScreen.swift */; };
+		7E2DFFAE681949617B601586 /* Pods_Media_Finder_X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760CFCDA831143AD6A7DF74A /* Pods_Media_Finder_X.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B0CEF96250C3F2700D77C0D /* UserDatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDatabaseManager.swift; sourceTree = "<group>"; };
+		3B12A0B52505C16800C94299 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		3B12A0B72505C1DA00C94299 /* MediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaResponse.swift; sourceTree = "<group>"; };
+		3B14611924F13FE8007BD94C /* MediaListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListVC.swift; sourceTree = "<group>"; };
+		3B14611B24F143EC007BD94C /* MoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCell.swift; sourceTree = "<group>"; };
+		3B14611C24F143EC007BD94C /* MoviesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesCell.xib; sourceTree = "<group>"; };
+		3B14611F24F14991007BD94C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3B14F77C24E623FB00D5D291 /* Place Mark with Compact Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place Mark with Compact Address.swift"; sourceTree = "<group>"; };
+		3B14F77E24E62DEF00D5D291 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		3B1A28F824DFAA85006984B6 /* depositphotos_214595286-stock-illustration-pin-vector-icon-isolated-transparent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "depositphotos_214595286-stock-illustration-pin-vector-icon-isolated-transparent.jpg"; sourceTree = "<group>"; };
+		3B1B919124DB6DDC00DD0023 /* Media Finder X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Finder X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1B919424DB6DDC00DD0023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B1B919624DB6DDC00DD0023 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		3B1B919924DB6DDC00DD0023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B1B919B24DB6DDF00DD0023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B1B919E24DB6DDF00DD0023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B1B91A024DB6DDF00DD0023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1B91AD24DB87EA00DD0023 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B1B91B124DB888700DD0023 /* UIViewController & validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController & validation.swift"; sourceTree = "<group>"; };
+		3B1B91B324DB892C00DD0023 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3B1B91B524DB91DF00DD0023 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		3B1B91B724DB968D00DD0023 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		3B1B91B924DBAC3200DD0023 /* 504-5040528_empty-profile-picture-png-transparent-png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "504-5040528_empty-profile-picture-png-transparent-png.png"; sourceTree = "<group>"; };
+		3B1B91BB24DBAF0700DD0023 /* Skull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skull.jpg; sourceTree = "<group>"; };
+		3B237B39250BA6E600FCB9CB /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
+		3B47138424FBD380009AB998 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3B94326C24DCFB7000EAAEC4 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg"; sourceTree = "<group>"; };
+		3B94326E24DCFC9600EAAEC4 /* kisspng-google-maps-pin-bing-maps-mapquest-how-to-create-a-nice-map-pin-icon-in-photoshop-i-5b630ecb57b8e5.8437748615332185073593.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kisspng-google-maps-pin-bing-maps-mapquest-how-to-create-a-nice-map-pin-icon-in-photoshop-i-5b630ecb57b8e5.8437748615332185073593.jpg"; sourceTree = "<group>"; };
+		3B94327024DCFFE200EAAEC4 /* Pin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pin.pdf; sourceTree = "<group>"; };
+		3B94327224DD007200EAAEC4 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		760CFCDA831143AD6A7DF74A /* Pods_Media_Finder_X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Media_Finder_X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82440A218A9DB2BED1F5B1E /* Pods-Media Finder X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media Finder X.debug.xcconfig"; path = "Target Support Files/Pods-Media Finder X/Pods-Media Finder X.debug.xcconfig"; sourceTree = "<group>"; };
+		EB7C532154F9A95153E9D460 /* Pods-Media Finder X.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media Finder X.release.xcconfig"; path = "Target Support Files/Pods-Media Finder X/Pods-Media Finder X.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1B918E24DB6DDC00DD0023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2DFFAE681949617B601586 /* Pods_Media_Finder_X.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1B918824DB6DDC00DD0023 = {
+			isa = PBXGroup;
+			children = (
+				3B1B919324DB6DDC00DD0023 /* Media Finder X */,
+				3B1B91AC24DB6EF300DD0023 /* Resources */,
+				3B1B919224DB6DDC00DD0023 /* Products */,
+				4F6B07D852BA0F174B4A4B68 /* Pods */,
+				3B47138324FBD320009AB998 /* Networking */,
+				99F45853A91B63F9861D70F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1B919224DB6DDC00DD0023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B919124DB6DDC00DD0023 /* Media Finder X.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1B919324DB6DDC00DD0023 /* Media Finder X */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B919424DB6DDC00DD0023 /* AppDelegate.swift */,
+				3B1B91A024DB6DDF00DD0023 /* Info.plist */,
+				3B1B91A624DB6EA100DD0023 /* View */,
+				3B1B91A724DB6EAD00DD0023 /* Controller */,
+				3B1B91A924DB6ED800DD0023 /* Model */,
+				3B1B91AA24DB6EE000DD0023 /* Manager */,
+				3B1B91A824DB6ECA00DD0023 /* Extensions */,
+				3B1B91AB24DB6EE800DD0023 /* Utilities */,
+			);
+			path = "Media Finder X";
+			sourceTree = "<group>";
+		};
+		3B1B91A624DB6EA100DD0023 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B919824DB6DDC00DD0023 /* Main.storyboard */,
+				3B1B919D24DB6DDF00DD0023 /* LaunchScreen.storyboard */,
+				E2E7D740250A360C00723852 /* MovieCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B1B91A724DB6EAD00DD0023 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B919624DB6DDC00DD0023 /* SignUpVC.swift */,
+				3B1B91B524DB91DF00DD0023 /* SignInVC.swift */,
+				3B1B91B724DB968D00DD0023 /* ProfileVC.swift */,
+				3B94327224DD007200EAAEC4 /* MapScreen.swift */,
+				3B14611924F13FE8007BD94C /* MediaListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B1B91A824DB6ECA00DD0023 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B91B124DB888700DD0023 /* UIViewController & validation.swift */,
+				3B14F77C24E623FB00D5D291 /* Place Mark with Compact Address.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3B1B91A924DB6ED800DD0023 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B91AD24DB87EA00DD0023 /* User.swift */,
+				3B14611F24F14991007BD94C /* Movie.swift */,
+				3B12A0B52505C16800C94299 /* Media.swift */,
+				3B12A0B72505C1DA00C94299 /* MediaResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B1B91AA24DB6EE000DD0023 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3B14F77E24E62DEF00D5D291 /* UserDefaultsManager.swift */,
+				3B237B39250BA6E600FCB9CB /* MediaManager.swift */,
+				3B0CEF96250C3F2700D77C0D /* UserDatabaseManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3B1B91AB24DB6EE800DD0023 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B91B324DB892C00DD0023 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3B1B91AC24DB6EF300DD0023 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B919B24DB6DDF00DD0023 /* Assets.xcassets */,
+				3B1B91B924DBAC3200DD0023 /* 504-5040528_empty-profile-picture-png-transparent-png.png */,
+				3B94326C24DCFB7000EAAEC4 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg */,
+				3B1A28F824DFAA85006984B6 /* depositphotos_214595286-stock-illustration-pin-vector-icon-isolated-transparent.jpg */,
+				3B94326E24DCFC9600EAAEC4 /* kisspng-google-maps-pin-bing-maps-mapquest-how-to-create-a-nice-map-pin-icon-in-photoshop-i-5b630ecb57b8e5.8437748615332185073593.jpg */,
+				3B94327024DCFFE200EAAEC4 /* Pin.pdf */,
+				3B1B91BB24DBAF0700DD0023 /* Skull.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B47138324FBD320009AB998 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3B47138424FBD380009AB998 /* APIManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4F6B07D852BA0F174B4A4B68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B82440A218A9DB2BED1F5B1E /* Pods-Media Finder X.debug.xcconfig */,
+				EB7C532154F9A95153E9D460 /* Pods-Media Finder X.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99F45853A91B63F9861D70F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				760CFCDA831143AD6A7DF74A /* Pods_Media_Finder_X.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2E7D740250A360C00723852 /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B14611B24F143EC007BD94C /* MoviesCell.swift */,
+				3B14611C24F143EC007BD94C /* MoviesCell.xib */,
+			);
+			path = MovieCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1B919024DB6DDC00DD0023 /* Media Finder X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1B91A324DB6DDF00DD0023 /* Build configuration list for PBXNativeTarget "Media Finder X" */;
+			buildPhases = (
+				29E80C5019D0F6151E596B89 /* [CP] Check Pods Manifest.lock */,
+				3B1B918D24DB6DDC00DD0023 /* Sources */,
+				3B1B918E24DB6DDC00DD0023 /* Frameworks */,
+				3B1B918F24DB6DDC00DD0023 /* Resources */,
+				70CC1E4CF34CA2E8D051DF1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Media Finder X";
+			productName = "Media Finder X";
+			productReference = 3B1B919124DB6DDC00DD0023 /* Media Finder X.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1B918924DB6DDC00DD0023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Yasser Aboibrahim";
+				TargetAttributes = {
+					3B1B919024DB6DDC00DD0023 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 3B1B918C24DB6DDC00DD0023 /* Build configuration list for PBXProject "Media Finder X" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B1B918824DB6DDC00DD0023;
+			productRefGroup = 3B1B919224DB6DDC00DD0023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1B919024DB6DDC00DD0023 /* Media Finder X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1B918F24DB6DDC00DD0023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B94326D24DCFB7100EAAEC4 /* map-drawing-pin-clip-art-png-favpng-Kun5RxqQpnjJhamZ9aztsSGh2.jpg in Resources */,
+				3B94326F24DCFC9600EAAEC4 /* kisspng-google-maps-pin-bing-maps-mapquest-how-to-create-a-nice-map-pin-icon-in-photoshop-i-5b630ecb57b8e5.8437748615332185073593.jpg in Resources */,
+				3B1B919F24DB6DDF00DD0023 /* LaunchScreen.storyboard in Resources */,
+				3B1B91BC24DBAF0700DD0023 /* Skull.jpg in Resources */,
+				3B14611E24F143EC007BD94C /* MoviesCell.xib in Resources */,
+				3B1B919C24DB6DDF00DD0023 /* Assets.xcassets in Resources */,
+				3B1B91BA24DBAC3200DD0023 /* 504-5040528_empty-profile-picture-png-transparent-png.png in Resources */,
+				3B94327124DCFFE200EAAEC4 /* Pin.pdf in Resources */,
+				3B1A28F924DFAA88006984B6 /* depositphotos_214595286-stock-illustration-pin-vector-icon-isolated-transparent.jpg in Resources */,
+				3B1B919A24DB6DDC00DD0023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E80C5019D0F6151E596B89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Media Finder X-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70CC1E4CF34CA2E8D051DF1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Media Finder X/Pods-Media Finder X-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Media Finder X/Pods-Media Finder X-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Media Finder X/Pods-Media Finder X-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1B918D24DB6DDC00DD0023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14612024F14991007BD94C /* Movie.swift in Sources */,
+				3B94327324DD007200EAAEC4 /* MapScreen.swift in Sources */,
+				3B1B919724DB6DDC00DD0023 /* SignUpVC.swift in Sources */,
+				3B1B919524DB6DDC00DD0023 /* AppDelegate.swift in Sources */,
+				3B237B3A250BA6E600FCB9CB /* MediaManager.swift in Sources */,
+				3B14611D24F143EC007BD94C /* MoviesCell.swift in Sources */,
+				3B14F77D24E623FB00D5D291 /* Place Mark with Compact Address.swift in Sources */,
+				3B12A0B62505C16800C94299 /* Media.swift in Sources */,
+				3B14F77F24E62DEF00D5D291 /* UserDefaultsManager.swift in Sources */,
+				3B14611A24F13FE8007BD94C /* MediaListVC.swift in Sources */,
+				3B0CEF97250C3F2700D77C0D /* UserDatabaseManager.swift in Sources */,
+				3B1B91AE24DB87EA00DD0023 /* User.swift in Sources */,
+				3B1B91B824DB968D00DD0023 /* ProfileVC.swift in Sources */,
+				3B12A0B82505C1DA00C94299 /* MediaResponse.swift in Sources */,
+				3B1B91B624DB91DF00DD0023 /* SignInVC.swift in Sources */,
+				3B47138524FBD380009AB998 /* APIManager.swift in Sources */,
+				3B1B91B224DB888700DD0023 /* UIViewController & validation.swift in Sources */,
+				3B1B91B424DB892C00DD0023 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B1B919824DB6DDC00DD0023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1B919924DB6DDC00DD0023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1B919D24DB6DDF00DD0023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1B919E24DB6DDF00DD0023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1B91A124DB6DDF00DD0023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B1B91A224DB6DDF00DD0023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1B91A424DB6DDF00DD0023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82440A218A9DB2BED1F5B1E /* Pods-Media Finder X.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Media Finder X/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yasser-Aboibrahim.Media-Finder-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3B1B91A524DB6DDF00DD0023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7C532154F9A95153E9D460 /* Pods-Media Finder X.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Media Finder X/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yasser-Aboibrahim.Media-Finder-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1B918C24DB6DDC00DD0023 /* Build configuration list for PBXProject "Media Finder X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1B91A124DB6DDF00DD0023 /* Debug */,
+				3B1B91A224DB6DDF00DD0023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1B91A324DB6DDF00DD0023 /* Build configuration list for PBXNativeTarget "Media Finder X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1B91A424DB6DDF00DD0023 /* Debug */,
+				3B1B91A524DB6DDF00DD0023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1B918924DB6DDC00DD0023 /* Project object */;
+}
