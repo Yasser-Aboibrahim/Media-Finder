@@ -29,25 +29,16 @@ It contains user email and password.<br/>
 It contains a search bar for the Media name ,Sigmented buttons to choose the type of the media (movies-songs-tv-shows) and a table view to show the result of the search.<br/>
 <br/>
 Examples:<br/>
-- The user has searched for Adele of type song.
+- The user search for Adele of type song then choose Rolling in the deep song.
 <br><br>
-<img src = "MediaFinderPics/MovieListSongs.PNG" width = 200 hight = 200> 
--In case the user choose for example Rolling in the deep
+<img src = "MediaFinderPics/MovieListSongs.PNG" width = 200 hight = 200> | <img src = "MediaFinderPics/AdeleRolling.PNG" width = 200 hight = 200><br/>
+- The user search for xmen of type movie then choose xmen movie.
 <br><br>
-<img src = "MediaFinderPics/AdeleRolling.PNG" width = 200 hight = 200> 
-- The user has searched for xmen of type movie.
+<img src = "MediaFinderPics/MovieListMovies.PNG" width = 200 hight = 200> | <img src = "MediaFinderPics/XmenMovie.PNG" width = 200 hight = 200>
+- The user search for xmen of type tv-show then choose xmen The Animated Seires.
 <br><br>
-<img src = "MediaFinderPics/MovieListMovies.PNG" width = 200 hight = 200> 
--In case the user choose for example xmen
-<br><br>
-<img src = "MediaFinderPics/XmenMovie.PNG" width = 200 hight = 200>
-- The user has searched for xmen of type tv-show.
-<br><br>
-<img src = "MediaFinderPics/MovieListTV-Shows.PNG" width = 200 hight = 200> 
--In case the user choose for example xmen The Animated Seires
-<br><br>
-<img src = "MediaFinderPics/xmenseires.PNG" width = 200 hight = 200>
-- The user has searched for something with no result.
+<img src = "MediaFinderPics/MovieListTV-Shows.PNG" width = 200 hight = 200> | <img src = "MediaFinderPics/xmenseires.PNG" width = 200 hight = 200>
+- The user search for something with no result.
 <br><br>
 <img src = "MediaFinderPics/MovieListNotFound.PNG" width = 200 hight = 200> 
 
