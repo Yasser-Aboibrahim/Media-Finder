@@ -27,14 +27,15 @@ It contains user email and password.<br/>
 
 # 3- Media List View
 It contains a search bar for the Media name ,Sigmented buttons to choose the type of the media (movies-songs-tv-shows) and a table view to show the result of the search.<br/>
+<br/>
 Examples:<br/>
-- The user has searched for Adele and of type song.
+- The user has searched for Adele of type song.
 <br><br>
 <img src = "MediaFinderPics/MovieListSongs.PNG" width = 200 hight = 200> 
-- The user has searched for xmen and of type movie.
+- The user has searched for xmen of type movie.
 <br><br>
 <img src = "MediaFinderPics/MovieListMovies.PNG" width = 200 hight = 200> 
-- The user has searched for xmen and of type tv-show.
+- The user has searched for xmen of type tv-show.
 <br><br>
 <img src = "MediaFinderPics/MovieListTV-Shows.PNG" width = 200 hight = 200> 
 - The user has searched for something with no result.
