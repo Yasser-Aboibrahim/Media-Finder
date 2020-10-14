@@ -32,12 +32,21 @@ Examples:<br/>
 - The user has searched for Adele of type song.
 <br><br>
 <img src = "MediaFinderPics/MovieListSongs.PNG" width = 200 hight = 200> 
+-In case the user choose for example Rolling in the deep
+<br><br>
+<img src = "MediaFinderPics/AdeleRolling.PNG" width = 200 hight = 200> 
 - The user has searched for xmen of type movie.
 <br><br>
 <img src = "MediaFinderPics/MovieListMovies.PNG" width = 200 hight = 200> 
+-In case the user choose for example xmen
+<br><br>
+<img src = "MediaFinderPics/XmenMovie.PNG" width = 200 hight = 200>
 - The user has searched for xmen of type tv-show.
 <br><br>
 <img src = "MediaFinderPics/MovieListTV-Shows.PNG" width = 200 hight = 200> 
+-In case the user choose for example xmen The Animated Seires
+<br><br>
+<img src = "MediaFinderPics/xmenseires.PNG" width = 200 hight = 200>
 - The user has searched for something with no result.
 <br><br>
 <img src = "MediaFinderPics/MovieListNotFound.PNG" width = 200 hight = 200> 
